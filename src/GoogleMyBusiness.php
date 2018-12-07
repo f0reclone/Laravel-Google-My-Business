@@ -30,7 +30,16 @@
  *
  * @author Google, Inc.
  */
-class Google_Service_MyBusiness extends Google_Service
+
+namespace Scottybo\LaravelGoogleMyBusiness;
+
+use Google_Service;
+use Google_Service_Resource;
+use Google_Model;
+use Google_Collection;
+use Google_Client;
+
+class GoogleMyBusiness extends Google_Service
 {
 
 
